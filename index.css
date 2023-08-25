@@ -1,0 +1,33 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center !important;
+}
+
+form input[type=number] {
+    max-width: 75px;
+    height: 30px;
+    font-weight: 900;
+    margin: 2rem 0;
+}
+
+form input[type=number]:focus {
+    background-color: rgb(219, 216, 216);
+}
+
+form label {
+    font-weight: 700;
+}
+
+.btn-container button {
+    margin: 0 1rem 1rem;
+}
+
+.btn:hover {
+    background: black !important;
+    color: white !important;
+}
